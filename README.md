@@ -23,7 +23,7 @@ use sensible::Default;
 struct Foo {
   a: u32,  // default value: 0
 
-  #[default = 42]
+  #[default(42)]
   b: u32,  // default value: 42
 }
 ```

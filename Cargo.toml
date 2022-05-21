@@ -3,7 +3,7 @@ name = "sensible"
 version = "0.1.0"
 edition = "2021"
 authors = ["Luke Sneeringer <luke@sneeringer.com>"]
-license = "MIT or Apache-2.0"
+license = "MIT"
 description = "Configurable derive macro for implementing Default"
 repository = "https://github.com/lukesneeringer/sensible"
 documentation = "https://docs.rs/sensible"
@@ -15,6 +15,9 @@ darling = "0.14"
 proc-macro2 = "1"
 quote = "1"
 syn = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+assert2 = "0.3"
 
 [build-dependencies]
 readme-rustdocifier = "0.1"
